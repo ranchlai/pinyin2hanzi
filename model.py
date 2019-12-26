@@ -13,8 +13,8 @@ class ConvBlock(nn.Module):
             self.pool = None
     def forward(self,x):
         out = self.conv(x)
-        out = self.relu(out)
         out = self.bn(out)
+        out = self.relu(out)
         if self.pool is not None:
             out = self.pool(out)
         return out
