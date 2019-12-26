@@ -6,13 +6,15 @@
 As a light weight example, trainin data are downloaded from the AI shell speech recognition corpus, 
 found in http://openslr.org/33/. The transcripts rather than the audio data are used. A copy of the transcript file is found in the ./data folder
 
-### MODEL ARCHITECTURE
+## MODEL ARCHITECTURE
+
 ![](./doc/model.png)
 
 
 
 
 ## TO DO
+
 1. Use process_ai_shell_transcript_sd.py to convert ai-shell transcripts from 汉字 to 带声调的拼音(pinyin with tones)
 
 2. run trian.py to train the model
@@ -20,10 +22,16 @@ found in http://openslr.org/33/. The transcripts rather than the audio data are 
 3. run inference_sd.py to do inference
 
 
+##  Pretrained model
+
+Pretrained model using AI-shell transcript file can be downloaded from 
+[gooole drive](https://drive.google.com/open?id=186jnywHwnxqXDBxrbFRpIF7dFAWcwEx_)
 
 
 
-### 一些带声调拼音的测试结果如下, results obtained by running inference_sd.py
+
+##  一些带声调拼音的测试结果如下, results obtained by running inference_sd.py
+
 
 néng gòu yíng de bǐ sài zhēn de hěn kāi xīn
 
