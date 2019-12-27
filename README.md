@@ -2,24 +2,31 @@
 拼音转汉字,  convert pinyin to 汉字 using deep networks
 
 
-### TRAINING DATA
-As a light weight example, trainin data are downloaded from the AI shell speech recognition corpus, 
+##  TRAINING DATA
+As a light-weight example, training data are downloaded from the AI shell speech recognition corpus, 
 found in http://openslr.org/33/. The transcripts rather than the audio data are used. A copy of the transcript file is found in the ./data folder
 
 ## MODEL ARCHITECTURE
 
 ![](./doc/model.png)
 
+## Requirements
+
+1. The project uses pytorch (>=1.3.0) and torchtext. Python3.7 is recommended
+
 
 
 
 ## TO DO
 
-1. Use process_ai_shell_transcript_sd.py to convert ai-shell transcripts from 汉字 to 带声调的拼音(pinyin with tones)
-
-2. run trian.py to train the model
-
-3. run inference_sd.py to do inference
+1. git clone https://github.com/ranchlai/pinyin2hanzi.git
+2. cd pinyin2hanzi
+3. virtualenv -p python3.7 py37
+4. source py37/bin/activate
+5. pip install -r requirements.txt
+6. Run process_ai_shell_transcript_sd.py to convert ai-shell transcripts from 汉字 to 带声调的拼音(pinyin with tones)
+7. Run trian.py to train the model, or you can download the pretrained model and put it to the "model" subfolder
+7. Run inference_sd.py to do inference
 
 
 ##  Pretrained model
@@ -53,7 +60,8 @@ bǎo bǎo zhòng wǔ diǎn èr jīn
 
 宝宝重五点二斤
 
-### Reference
+## Reference
+
 
 Some of the code borrowed from https://github.com/bentrevett/pytorch-seq2seq
 

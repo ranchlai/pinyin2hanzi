@@ -10,7 +10,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 
 import torchtext
-from torchtext.datasets import TranslationDataset, Multi30k
+from torchtext.datasets import TranslationDataset
 from torchtext.data import Field, BucketIterator
 
 from pdb import set_trace
