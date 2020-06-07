@@ -25,7 +25,7 @@ found in http://openslr.org/33/. The transcripts rather than the audio data are 
 4. source py37/bin/activate
 5. pip install -r requirements.txt
 6. Run process_ai_shell_transcript_sd.py to convert ai-shell transcripts from 汉字 to 带声调的拼音(pinyin with tones)
-7. Run trian.py to train the model, or you can download the pretrained model and put it to the "model" subfolder
+7. Run train.py to train the model, or you can download the pretrained model and put it to the "model" subfolder
 7. Run inference_sd.py to do inference
 
 

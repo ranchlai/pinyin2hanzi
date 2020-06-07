@@ -1,5 +1,6 @@
-**/models
-**/.ipynb_checkpoints
-**/*.ipynb
-**/obsolete
+/models/*.pth
+.ipynb_checkpoints
+*.ipynb
+/obsolete
 __pycache__
+py37
